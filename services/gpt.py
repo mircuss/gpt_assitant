@@ -1,4 +1,3 @@
-import asyncio
 import openai
 from aiogram import Bot
 from config import settings
@@ -45,7 +44,6 @@ class GPT:
                     chat_id=user,
                     text="Случилась ошибка, повторите попытку")
                 return
-            await asyncio.sleep(3)
 
         messages = await client.beta.threads.messages.list(
             thread_id=thread_id

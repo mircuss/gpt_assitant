@@ -1,6 +1,6 @@
 aiogram
 alembic
 sqlalchemy
-aiomysql
+aiosqlite
 openai
 python-dotenv
