@@ -1,0 +1,6 @@
+aiogram
+alembic
+sqlalchemy
+aiomysql
+openai
+python-dotenv
